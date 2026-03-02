@@ -16,8 +16,8 @@ It’s a static project (no JavaScript functionality yet) designed to showcase c
 
 ---
 
-## 📸 Screenshots
-(Add screenshots or GIFs of your project here once you push it to GitHub Pages)
+## 📸 Screenshot
+<img width="1887" height="962" alt="Screenshot of UI" src="https://github.com/user-attachments/assets/0b27d1dc-7412-4a53-a87c-0738af096c02" />
 
 ---
 
@@ -30,3 +30,4 @@ It’s a static project (no JavaScript functionality yet) designed to showcase c
    cd Youtube-clone
 
 3. Open index.html in your browser.
+
