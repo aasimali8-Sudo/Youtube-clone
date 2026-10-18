@@ -136,7 +136,7 @@ let videos = [
     vid: "9iMGFqMmUFs",
     duration: "7:53",
     thumbnail: "thumbnails/thumbnail-12.webp",
-    title: "What would happen if you didn't drint water? - Mia Nacamulli",
+    title: "What would happen if you didn't drink water? - Mia Nacamulli",
     author: "TED-Ed",
     views: "12M",
     uploadTime: "9 years",
