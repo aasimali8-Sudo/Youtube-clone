@@ -1,6 +1,6 @@
-const videos = [
+let videos = [
   {
-    id: 1,
+    id: '5de0c0ff-8bfd-45b2-82a8-cf1e5278b207',
     vid : "n2RNcPRtAiY",
     duration: "14:20",
     thumbnail: "thumbnails/thumbnail-1.webp",
@@ -12,7 +12,7 @@ const videos = [
     channel : "c/mkbhd"
   },
   {
-    id: 2,
+    id: 'b8e9f0a1-c2d3-e4f5-a6b7-c8d9e0f1a2b3',
     vid: "mP0RAo9SKZk",
     duration: "08:22",
     thumbnail: "thumbnails/thumbnail-2.webp",
@@ -24,7 +24,7 @@ const videos = [
     channel : "@markiplier"
   },
   {
-    id: 3,
+    id: 'c3f4g5h6-i7j8-k9l0-m1n2-o3p4q5r6s7t8',
     vid: "FgjPQQeTh1w",
     duration: "9:13",
     thumbnail: "thumbnails/thumbnail-3.webp",
@@ -36,7 +36,7 @@ const videos = [
     channel : "@SSSniperWolf"   
   },
   {
-    id: 4,
+    id: 'd4g5h6i7-j8k9-l0m1-n2o3-p4q5r6s7t8u9',
     vid: "094y1Z2wpJg",
     duration: "22:09",
     thumbnail: "thumbnails/thumbnail-4.webp",
@@ -48,7 +48,7 @@ const videos = [
     channel : "@Veritasium"
   },
   {
-    id: 5,
+    id: 'e5h6i7j8-k9l0-m1n2-o3p4-q5r6s7t8u9v0',
     vid: "86CQq3pKSUw",
     duration: "11:17",
     thumbnail: "thumbnails/thumbnail-5.webp",
@@ -60,7 +60,7 @@ const videos = [
     channel : "@CSDojo"
   },
   {
-    id: 6,
+    id: 'f6i7j8k9-l0m1-n2o3-p4q5-r6s7t8u9v0w1',
     vid: "yXWw0_UfSFg",
     duration: "19:59",
     thumbnail: "thumbnails/thumbnail-6.webp",
@@ -72,7 +72,7 @@ const videos = [
     channel : "@MrBeast"
   },
   {
-    id: 7,
+    id: 'g7j8k9l0-m1n2-o3p4-q5r6-s7t8u9v0w1x2',
     vid: "fNVa1qMbF9Y",
     duration: "10:13",
     thumbnail: "thumbnails/thumbnail-7.webp",
@@ -84,7 +84,7 @@ const videos = [
     channel : "@RealLifeLore"
   },
   {
-    id: 8,
+    id: 'h8k9l0m1-n2o3-p4q5-r6s7-t8u9v0w1x2y3',
     vid: "lFm4EM1juls",
     duration: "7:12",
     thumbnail: "thumbnails/thumbnail-8.webp",
@@ -96,7 +96,7 @@ const videos = [
     channel : "@adin"
   },
   {
-    id: 9,
+    id: 'i9l0m1n2-o3p4-q5r6-s7t8-u9v0w1x2y3z4',
     vid: "ixmxOlcrlUc",
     duration: "13:17",
     thumbnail: "thumbnails/thumbnail-9.webp",
@@ -108,7 +108,7 @@ const videos = [
     channel : "@OFFICIALTHENXSTUDIOS"
   },
   {
-    id: 10,
+    id: 'j0m1n2o3-p4q5-r6s7-t8u9-v0w1x2y3z4a5',
     vid: "R2vXbFp5C9o",
     duration: "7:53",
     thumbnail: "thumbnails/thumbnail-10.webp",
@@ -120,7 +120,7 @@ const videos = [
     channel : "user/businessinsider"
   },
   {
-    id: 11,
+    id: 'k1n2o3p4-q5r6-s7t8-u9v0-w1x2y3z4a5b6',
     vid: "0nZuYyXET3s",
     duration: "4:10",
     thumbnail: "thumbnails/thumbnail-11.webp",
@@ -132,7 +132,7 @@ const videos = [
     channel : "@Destinationtips"
   },
   {
-    id: 12,
+    id: 'l2o3p4q5-r6s7-t8u9-v0w1-x2y3z4a5b6c7',
     vid: "9iMGFqMmUFs",
     duration: "7:53",
     thumbnail: "thumbnails/thumbnail-12.webp",
@@ -144,3 +144,12 @@ const videos = [
     channel : "@teded"
   }
 ];
+
+// // create a new array of videos with unique IDs using crypto.randomUUID()
+
+// videos = videos.map((video) => ({
+//   id: crypto.randomUUID(),
+//   ...video
+// }));
+
+// console.log(videos);
